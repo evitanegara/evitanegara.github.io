@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine Learning Projects | Evita Negara Putri</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #333;
+      padding: 40px;
+    }
+    .page-title {
+      text-align: center;
+      font-size: 2.8em;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #212529;
+      margin-bottom: 40px;
+    }
+    .back-link {
+      display: block;
+      margin-bottom: 30px;
+      font-size: 0.95em;
+      text-decoration: none;
+      color: #000;
+    }
+    .dashboard-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .dashboard-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .dashboard-card:hover {
+      transform: translateY(-4px);
+    }
+    .dashboard-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .dashboard-card h3 {
+      margin-top: 16px;
+      font-size: 1em;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .tools {
+      font-size: 0.9em;
+      margin: 10px 0 8px;
+      color: #444;
+    }
+    .libs {
+      font-size: 0.85em;
+      color: #555;
+      margin-bottom: 18px;
+    }
+    .tools span, .libs span {
+      background: #eee;
+      border-radius: 4px;
+      padding: 2px 6px;
+      margin: 2px 4px;
+      display: inline-block;
+    }
+    .view-btn {
+      padding: 10px 20px;
+      font-size: 0.85em;
+      font-weight: bold;
+      color: black;
+      border: 2px solid black;
+      background: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.2s ease;
+    }
+    .view-btn:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+  <a class="back-link" href="index.html">&larr; Back to Homepage</a>
+  <h1 class="page-title">ML & DL Projects</h1>
+
+  <div class="dashboard-gallery">
+    <div class="dashboard-card">
+      <a href="https://github.com/evitanegaraputri4/Text-Processing-Classify-Topic-Label" target="_blank">
+        <img src="images/pic33.jpg" alt="Text Classification" />
+        <h3>BBC Topic Classification with NLP</h3>
+      </a>
+      <div class="libs">Libraries: <span>numpy</span><span>pandas</span><span>matplotlib</span><span>seaborn</span><span>sklearn</span><span>nltk</span></div>
+      <div class="libs">Models: <span>Random Forest</span><span>Naive Bayes</span><span>Support Vector Machine</span></div>
+      <a class="view-btn" href="https://github.com/evitanegaraputri4/Text-Processing-Classify-Topic-Label" target="_blank">View Project</a>
+    </div>
+
+    <div class="dashboard-card">
+      <a href="https://github.com/evitanegaraputri4/Weed-Classification" target="_blank">
+        <img src="images/pic31.jpg" alt="Weed Classification" />
+        <h3>Weed Image Classification</h3>
+      </a>
+      <div class="libs">Libraries: <span>numpy</span><span>pandas</span><span>matplotlib</span><span>seaborn</span><span>cv2</span><span>skimage</span><span>sklearn</span><span>os</span><span>sys</span></div>
+      <div class="libs">Models: <span>Random Forest</span><span>SVC</span><span>Logistic Regression</span><span>CNN</span></div>
+      <a class="view-btn" href="https://github.com/evitanegaraputri4/Weed-Classification" target="_blank">View Project</a>
+    </div>
+
+    <div class="dashboard-card">
+      <a href="https://github.com/evitanegaraputri4/Weather-Prediction-Using-Timeseries-Data" target="_blank">
+        <img src="images/pic30.jpg" alt="Weather Prediction" />
+        <h3>Weather Prediction in Rothamsted England with Timeseries</h3>
+      </a>
+      <div class="libs">Libraries: <span>numpy</span><span>pandas</span><span>matplotlib</span><span>seaborn</span><span>sklearn</span><span>keras</span><span>tensorflow</span><span>scikeras</span></div>
+      <div class="libs">Models: <span>Random Forest</span><span>XGBoost</span><span>AdaBoost</span><span>MLP</span><span>LSTM</span><span>Ensamble Method</span></div>
+      <a class="view-btn" href="https://github.com/evitanegaraputri4/Weather-Prediction-Using-Timeseries-Data" target="_blank">View Project</a>
+    </div>
+
+    <div class="dashboard-card">
+      <a href="https://github.com/evitanegaraputri4/House-Price-Prediction-Using-Spark-ML" target="_blank">
+        <img src="images/pic32.jpg" alt="House Price Prediction" />
+        <h3>House Price Prediction using Spark</h3>
+      </a>
+      <div class="libs">Libraries: <span>pyspark</span><span>numpy</span><span>matplotlib</span><span>seaborn</span><span>findspark</span></div>
+      <div class="libs">Models: <span>Linear Regression</span></div>
+      <a class="view-btn" href="https://github.com/evitanegaraputri4/House-Price-Prediction-Using-Spark-ML" target="_blank">View Project</a>
+    </div>
+
+    <div class="dashboard-card">
+      <a href="https://github.com/evitanegaraputri4/Vehicle-Classification" target="_blank">
+        <img src="images/pic29.jpg" alt="Vehicle Classification" />
+        <h3>Vehicle Type Classification</h3>
+      </a>
+      <div class="libs">Libraries: <span>numpy</span><span>pandas</span><span>matplotlib</span><span>seaborn</span><span>cv2</span><span>skimage</span><span>sklearn</span><span>os</span><span>sys</span></div>
+       <div class="libs">Models: <span>Random Forest</span><span>SVM</span><span>FCN</span><span>CNN</span></div>
+      <a class="view-btn" href="https://github.com/evitanegaraputri4/Vehicle-Classification" target="_blank">View Project</a>
+    </div>
+  </div>
+
+</body>
+</html>
